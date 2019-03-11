@@ -2,7 +2,8 @@ const {
   HOSTNAME,
   USERNAME,
   PASSWORD,
-  SECTION
+  SECTION,
+  PORT
 } = process.env
 
 const {
@@ -19,7 +20,8 @@ const PlexAPI = require('plex-api')
 const client = new PlexAPI({
   hostname: HOSTNAME,
   username: USERNAME,
-  password: PASSWORD
+  password: PASSWORD,
+  port: PORT
 })
 
 const unplayed = compose(
