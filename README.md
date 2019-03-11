@@ -10,8 +10,9 @@ services:
       - SECTION=<section-number>
       - USERNAME=<username>
       - PASSWORD=<password>
+      - PORT=<port>
 ```
 
 ```bash
-docker exec -it beets /bin/bash -c 'beet import /downloads'
+docker run --rm simonwjackson/plex-remove-watched",
 ```

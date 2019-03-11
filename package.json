@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "docker:run": "npm run docker:build && docker run --rm plex-remove-watched",
+    "docker:build": "docker build --tag='plex-remove-watched' .",
+    "docker:push": "docker push simonwjackson/plex-remove-watched:latest",
+    "docker:update": "npm run docker:build && npm run docker:push"
   },
   "keywords": [],
   "author": "",
