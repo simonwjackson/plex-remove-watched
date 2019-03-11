@@ -1,0 +1,16 @@
+{
+  "name": "plex-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "plex-api": "^5.2.1",
+    "ramda": "^0.26.1"
+  }
+}
