@@ -14,14 +14,13 @@ const {
   filter,
   path,
   prop,
-  bind
 } = require('ramda')
-const PlexAPI = require("plex-api");
+const PlexAPI = require('plex-api')
 const client = new PlexAPI({
   hostname: HOSTNAME,
   username: USERNAME,
   password: PASSWORD
-});
+})
 
 const unplayed = compose(
   filter,
