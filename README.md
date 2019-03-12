@@ -1,5 +1,8 @@
 ```yaml
 ---
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/simonwjackson/plex-remove-watched.svg)](https://greenkeeper.io/)
+
 version: "2"
 services:
   sonarr:
